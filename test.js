@@ -49,7 +49,7 @@ test('updates on render', function (t) {
   state.flowers = 10
   emitter.emit(state.events.RENDER)
   t.equal(shortcut.get(), 10, 'it is 6 afeter')
-  
+
   state.flowers = 5
 })
 
