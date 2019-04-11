@@ -3,6 +3,11 @@ Shortcut access to parts of the `state` anywhere in your app.
 
 Useful to simulate "contexts", avoid passing down the `state` to hell. It's again a ridiculous little function.
 
+## Installation
+```
+npm i choo-shortcut
+```
+
 ## Example
 ```javascript
 // flowers-context.js
